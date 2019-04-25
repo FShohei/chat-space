@@ -37,7 +37,7 @@
   }
     }
   .messages{
-    background-color: #fafafa;
+    background-color: $ford-white;
     box-sizing: border-box;
     height: calc(100vh - 100px - 90px);
     overflow: scroll;
@@ -68,7 +68,7 @@
    }
   }
   .form{
-    background-color: #dddddd;
+    background-color: $light-gray;
     box-sizing: border-box;
     height: 90px;
     padding: 20px 50px 20px 40px;
