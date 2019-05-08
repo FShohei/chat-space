@@ -43,7 +43,6 @@
     overflow: scroll;
     padding: 46px 40px 0;
    .message{
-     margin-bottom: 40px;
      .upper-message{
        display: flex;
        &--user-name{
@@ -74,10 +73,8 @@
     padding: 20px 50px 20px 40px;
    &__message{
      border: none;
-     box-sizing: border-box;
      float: left;
      height: 50px;
-     padding: 0 10px;
      width: calc(100% - 150px);
    }
     &__mask{
