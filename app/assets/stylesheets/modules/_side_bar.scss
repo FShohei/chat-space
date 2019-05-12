@@ -11,7 +11,7 @@
        display: inline-block;
        font-size: 16px;
        font-weight: bold;
-     }
+    }
     &__lists{
          display: inline-block;
          float: right;
@@ -19,10 +19,10 @@
            display: inline-block;
          }
     
-    .icon{
-     color: $white;
-     font-size: 16px;
-      }
+         .icon{
+          color: $white;
+          font-size: 16px;
+         }
     }
   }
   .groups{
@@ -35,12 +35,12 @@
     &__name{
        color: $white;
        font-size: 15px;
-     }
+    }
     &__message{
          color: $white;
          font-size: 11px;
          margin-top: 5px;
-      }
+     }
     }
-   }
- }
+  }
+}
