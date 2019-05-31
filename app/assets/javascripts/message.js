@@ -1,6 +1,7 @@
 $(function() {
   function buildHTML(message){
-    if ( message.image ) {
+    if (message.image!=null){
+      html += `<img src='${ message.image }', class='lower-message__image'>`
       var html =
        `<div class="message" data-message-id=${message.id}>
           <div class="upper-message">
@@ -52,7 +53,6 @@ $('#new_message').on('submit', function(e){
     contentType: false
    })
    .done(function(data){
-     console.log('hoge');
     var html = buildHTML(data);
     $('.messages').append(html);
     $('.form__message').val('');
@@ -61,9 +61,9 @@ $('#new_message').on('submit', function(e){
     $('form')[0].reset();
    })
   .fail(function(){
-    alert('error')
+    alert('メッセージを入力してください')
     $('.form__submit').prop('disabled', false);
     });
-    //return false;
+  
   });
 });
